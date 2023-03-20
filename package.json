@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "report": "jest --reporters='default' --reporters='jest-junit'"
+    "report": "allure serve"
   },
   "author": "",
   "license": "ISC",
