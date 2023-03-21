@@ -2,7 +2,7 @@ import jp from 'jsonpath'
 
 class RandomGenerator {
 
-    public generateRandomString(body, jsonPath: string) {
+    public generateRandomString(body: Object, jsonPath: string) {
         return jp.value(body, jsonPath, this.generateString());
     }
 
